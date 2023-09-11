@@ -1,0 +1,301 @@
+@font-face {
+}
+
+body {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 1.8 !important;
+}
+
+
+
+
+/* Utilities */
+
+.hover-grow {
+    transition: all 0.5s;
+}
+
+.text-purple {
+    color:rgb(95, 53, 97);
+
+}
+.icon-purple{
+    color: #3a2a36 !important;
+}
+
+.btn-purple{
+    background-color:rgb(102, 70, 103) ;
+    color:rgb(240, 236, 240) ;
+    border-radius:10px;
+}
+.btn-purple:hover{
+    color:rgb(102, 70, 103);
+    background-color:#f3e3ec;
+}
+.hover-grow:hover {
+    transform: scale(1.1);
+}
+
+/* Header */
+.header {
+    transition: all 0.5s;
+    padding: 20px 0;
+}
+
+.header-scrolled {
+    background-color:#fffafd;
+    box-shadow: 0px 2px 20px rgba(102, 106, 108, 0.1);
+    color: #4154f1 !important;
+   
+    
+}
+
+@media (max-width: 992px) {
+    .header {
+        background-color: #ffffff;
+        
+    }
+    
+    .myinfo{
+        margin-left: 20px;
+        margin-top: 360px;
+        }
+        .textinfo{
+            margin-left: 0;
+        }
+    }
+
+.b{
+    
+   margin-bottom: 450px;
+ 
+   
+}
+.n{
+
+    margin-top: 500px !important;
+}
+
+.info{
+    margin-top: 200px;
+    margin-left: 20px;
+}
+/* Intro */
+.intro {
+margin-top: 200px;
+    /* background: url("../images/intro/intro-bg.png") top center no-repeat; */
+    background-size: cover;
+}
+.social-links{
+    margin-bottom: 1;
+}
+.myfoto{
+
+    margin-left: 20px;
+   
+   
+}
+
+.card{
+    border: none !important;
+}
+
+/* About */
+.content {
+    width: 600px;
+    padding:20px;
+    margin-left: 300px;
+    margin-top: -35px;
+}
+
+/* Counts */
+.counts i {
+    font-size: 42px;
+}
+.counts i.blue {
+    color: #4154f1;
+}
+.counts i.orange {
+    color: #ee6c20;
+}
+.counts i.green {
+    color: #15be56;
+}
+.counts i.red {
+    color: #bb0852;
+}
+
+/* Features */
+.features i {
+    font-size: 44px;
+    color: #4154f1;
+}
+
+/* Services */
+.services .service-box {
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    padding: 60px 30px;
+    text-align: center;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.services .service-box .icon {
+    font-size: 36px;
+    padding: 20px;
+    line-height: 0;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.services .service-box .read-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+
+.services .service-box .read-more i {
+    font-size: 18px;
+    line-height: 0;
+    margin-right: 0.4rem;
+    padding: 0;
+}
+
+/* service-box blue */
+.services .service-box.blue {
+    border-bottom: 3px solid #493549;
+}
+
+.services .service-box.blue .icon {
+    color: #3c253c;
+    background: #dbf3fe;
+}
+
+.services .service-box.blue .read-more {
+    color: #332c33;
+}
+
+.services .service-box.blue:hover {
+    background: #442d42;
+    color: #fff;
+}
+
+/* service-box orange */
+.services .service-box.orange {
+    border-bottom: 3px solid #3e2e39;
+}
+
+.services .service-box.orange .icon {
+    color: #2b252b;
+    background: #fde3c4;
+}
+
+.services .service-box.orange .read-more {
+    color: #3a2a36;
+}
+
+.services .service-box.orange:hover {
+    background: #432941;
+    color: #fff;
+}
+
+/* service-box green */
+.services .service-box.green {
+    border-bottom: 3px solid #462e44;
+}
+
+.services .service-box.green .icon {
+    color: #4a3049;
+    background: #cffddf;
+}
+
+.services .service-box.green .read-more {
+    color: #472e45;
+}
+
+.services .service-box.green:hover {
+    background: #442b3e;
+    color: #fff;
+}
+
+.services .service-box:hover .read-more {
+    color: #fff;
+}
+.services .service-box:hover .icon {
+    background-color: #fff;
+}
+
+/* Pricing */
+.pricing .card {
+    transition: all 0.3s;
+}
+.pricing .card:hover {
+    transform: scale(1.1);
+}
+
+/* Contact */
+.contact .info-box {
+    background-color: #fafbff;
+    padding: 30px;
+}
+.contact .info-box i {
+    font-size: 38px;
+    line-height: 0;
+    color: #4154f1;
+}
+.contact .info-box .cellphone {
+    direction: ltr;
+    text-align: right;
+}
+
+.contact .contact-form {
+    background-color: #fafbff;
+    padding: 30px;
+    height: 100%;
+}
+
+/* Footer */
+.footer .social-links i{
+    font-size: 20px;
+    color: rgba(1, 41, 112, 0.5);
+}
+
+.footer hr{
+    width: 70%;
+    height: 5px;
+}
+
+.footer .footer-links i{
+    font-size: 13px;
+}
+
+.footer .footer-links a{
+    color: #000;
+}
+/* Arbeitzeuignisse */
+.imgz{
+    margin-top: 200px;
+    
+    border-radius: 20px;
+    text-align: center;
+}
